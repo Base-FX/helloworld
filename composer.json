@@ -1,0 +1,21 @@
+{
+  "name": "base-fx/helloworld",
+  "description": "only say hello",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "linsn",
+      "email": "linsn@base-fx.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "BaseFx\\": "src/BaseFx"
+    }
+  }
+}
